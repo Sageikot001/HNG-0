@@ -12,7 +12,7 @@ app.get('/api', (req, res) => {
   const response = {
     email: 'ikotnsikak@gmail.com', // Replace with your HNG Slack email
     current_datetime: new Date().toISOString(), // Dynamically generated ISO 8601 timestamp
-    github_url: 'https://github.com/Sageikot001/your-repo', // Replace with your GitHub repo URL
+    github_url: 'https://github.com/Sageikot001/HNG-0.git', // Replace with your GitHub repo URL
   };
   res.status(200).json(response);
 });
