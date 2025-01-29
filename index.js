@@ -7,6 +7,11 @@ const PORT = process.env.PORT || 3000;
 // Middleware to handle CORS
 app.use(cors());
 
+// Root endpoint
+app.get('/', (req, res) => {
+    res.send('Welcome to the HNG Stage 0 Backend API!');
+  });
+
 // GET endpoint
 app.get('/api', (req, res) => {
   const response = {
