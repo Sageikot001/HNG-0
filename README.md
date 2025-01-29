@@ -6,8 +6,9 @@ This is a simple API that returns basic information in JSON format.
 ## API Documentation
 To get started, run the following command:
 ```bash
+git clone https://github.com/Sageikot001/HNG-0.git
 npm install
-npm start
+node index.js
 ```
 
 ### Endpoint
